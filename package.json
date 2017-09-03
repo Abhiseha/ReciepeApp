@@ -1,17 +1,26 @@
 {
-  "name": "reciepe",
+  "name": "reciepeapp",
   "version": "1.0.0",
-  "description": "reciepe app",
-  "main": "index.js",
+  "description": "PlacementSeason Project",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "abhi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhiseha/ReciepeApp.git"
+  },
+  "author": "Abhiseha",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhiseha/ReciepeApp/issues"
+  },
+  "homepage": "https://github.com/Abhiseha/ReciepeApp#readme",
   "dependencies": {
-    "hapi": "^16.5.2"
+    "hapi": "^16.5.2",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.3.2"
   }
 }
-
-
-
